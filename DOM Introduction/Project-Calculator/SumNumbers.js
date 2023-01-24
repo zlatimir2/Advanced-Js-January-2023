@@ -21,14 +21,12 @@ function calc() {
         case '/':
             result = Number(num1) / Number(num2);
             break;
+        default:
+            document.getElementById('final').value = 'Invalid operator';
+            break;
     }
 
-    //     // default:
-    //     //     document.getElementById('result').value = 'Invalid operator';
-    //     //     break;
-    // }
 
 
-
-    document.getElementById('result').value = result
+    document.getElementById('final').value = result
 }
