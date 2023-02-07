@@ -1,0 +1,15 @@
+{
+  "name": "exercise-unit-testing-and-error-handling",
+  "version": "1.0.0",
+  "description": "exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ZI",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}
