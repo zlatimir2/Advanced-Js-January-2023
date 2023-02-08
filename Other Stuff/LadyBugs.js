@@ -4,20 +4,18 @@ function solve(...params) {
   let bugs = params.shift().split(' ');
   let line = params.shift().split(' ');
 
-  for (let i = 0; i <= arrLength - 1; i++) {
-    array[i] = 0;
+  for (let i = 0; i < arrLength; i++) {
+
+    array.push(0);
   }
-
-
-
+  for (let i = 0; i < bugs.length; i++) {
+    let position = Number(bugs[i])
+    if (position > array.length) {
+      continue
+    }
+    array[position] = 1;
+  }
   console.log(array);
-
-
-
-  while (line != 'end') {
-
-    line = params.shift().split(' ');
-  }
 
 
 }
